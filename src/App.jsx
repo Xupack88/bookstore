@@ -72,7 +72,7 @@ function App() {
 
   const deleteBook = (id) => {
     fetch(
-      `https://bookstore-b5d2e-default-rtdb.europe-west1.firebasedatabase.app/books/${id}.json`,
+      `https://bookstore-b5d2e-default-rtdb.europe-west1.firebasedatabase.app/${id}.json`,
       {
         method: 'DELETE',
       }
